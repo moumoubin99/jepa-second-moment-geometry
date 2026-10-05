@@ -1,0 +1,5 @@
+# Required only for runs selecting the corresponding external optimizer.
+# Exact historical versions were not recorded; these are compatibility candidates.
+bitsandbytes>=0.43,<1
+galore-torch>=1.0,<2
+adam-mini>=1.1,<2

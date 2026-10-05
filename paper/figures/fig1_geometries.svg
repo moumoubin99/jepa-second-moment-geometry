@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2126" height="384" viewBox="0 0 2126 384">
+  <defs>
+    <marker id="arrow-end" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/>
+    </marker>
+    <marker id="arrow-start" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/>
+    </marker>
+  </defs>
+
+  <style>
+    :root {
+      --font-sans: "Inter", "Arial", "Helvetica", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      --font-serif: "Georgia", "Times New Roman", "Noto Serif CJK SC", serif;
+      --font-hand: "Comic Sans MS", "Comic Neue", "Arial Rounded MT Bold", "Microsoft YaHei", sans-serif;
+    }
+  </style>
+  <rect id="canvas-background" x="0" y="0" width="2126" height="384" fill="#ffffff"/>
+  <g id="connectors">
+    <path id="perm-arrow-r1-to-r3" d="M 2000 100 C 2062 100 2076 190 2014 190" fill="none" stroke="#444444" stroke-width="3"  />
+    <polygon id="perm-head-r1-to-r3" points="2000,190 2016,182 2016,198" fill="#444444" />
+    <path id="perm-arrow-r2-to-r1" d="M 2000 136 C 2034 136 2048 100 2014 100" fill="none" stroke="#444444" stroke-width="3"  />
+    <polygon id="perm-head-r2-to-r1" points="2000,100 2016,92 2016,108" fill="#444444" />
+    <path id="perm-arrow-r3-to-r4" d="M 2000 208 C 2034 208 2048 244 2014 244" fill="none" stroke="#444444" stroke-width="3"  />
+    <polygon id="perm-head-r3-to-r4" points="2000,244 2016,236 2016,252" fill="#444444" />
+    <path id="perm-arrow-r4-to-r2" d="M 2000 244 C 2096 244 2110 154 2014 154" fill="none" stroke="#444444" stroke-width="3"  />
+    <polygon id="perm-head-r4-to-r2" points="2000,154 2016,146 2016,162" fill="#444444" />
+  </g>
+  <g id="sections">
+    <rect id="cell-a-r1c1" x="56" y="64" width="46" height="54" rx="0" ry="0" fill="#8b8778" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r1c2" x="102" y="64" width="46" height="54" rx="0" ry="0" fill="#163770" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r1c3" x="148" y="64" width="46" height="54" rx="0" ry="0" fill="#d4c15f" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r1c4" x="194" y="64" width="46" height="54" rx="0" ry="0" fill="#545a6d" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r1c5" x="240" y="64" width="46" height="54" rx="0" ry="0" fill="#b4a76f" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r1c6" x="286" y="64" width="46" height="54" rx="0" ry="0" fill="#002a5f" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r2c1" x="56" y="118" width="46" height="54" rx="0" ry="0" fill="#666970" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r2c2" x="102" y="118" width="46" height="54" rx="0" ry="0" fill="#ead34c" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r2c3" x="148" y="118" width="46" height="54" rx="0" ry="0" fill="#35456c" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r2c4" x="194" y="118" width="46" height="54" rx="0" ry="0" fill="#9e9676" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r2c5" x="240" y="118" width="46" height="54" rx="0" ry="0" fill="#777777" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r2c6" x="286" y="118" width="46" height="54" rx="0" ry="0" fill="#c8b866" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r3c1" x="56" y="172" width="46" height="54" rx="0" ry="0" fill="#4a536c" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r3c2" x="102" y="172" width="46" height="54" rx="0" ry="0" fill="#f6dd3f" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r3c3" x="148" y="172" width="46" height="54" rx="0" ry="0" fill="#003070" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r3c4" x="194" y="172" width="46" height="54" rx="0" ry="0" fill="#948e77" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r3c5" x="240" y="172" width="46" height="54" rx="0" ry="0" fill="#dfca57" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r3c6" x="286" y="172" width="46" height="54" rx="0" ry="0" fill="#5e626e" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r4c1" x="56" y="226" width="46" height="54" rx="0" ry="0" fill="#273e6e" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r4c2" x="102" y="226" width="46" height="54" rx="0" ry="0" fill="#beaf6b" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r4c3" x="148" y="226" width="46" height="54" rx="0" ry="0" fill="#6f7073" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r4c4" x="194" y="226" width="46" height="54" rx="0" ry="0" fill="#a99f73" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r4c5" x="240" y="226" width="46" height="54" rx="0" ry="0" fill="#404c6c" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-a-r4c6" x="286" y="226" width="46" height="54" rx="0" ry="0" fill="#817f78" stroke="#ffffff" stroke-width="2" />
+    <rect id="grid-a-outline" x="56" y="64" width="276" height="216" rx="0" ry="0" fill="none" stroke="#444444" stroke-width="2" />
+    <rect id="cell-b-r1c1" x="382" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r1c2" x="428" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r1c3" x="474" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r1c4" x="520" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r1c5" x="566" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r1c6" x="612" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r2c1" x="382" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r2c2" x="428" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r2c3" x="474" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r2c4" x="520" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r2c5" x="566" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r2c6" x="612" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r3c1" x="382" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r3c2" x="428" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r3c3" x="474" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r3c4" x="520" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r3c5" x="566" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r3c6" x="612" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r4c1" x="382" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r4c2" x="428" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r4c3" x="474" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r4c4" x="520" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r4c5" x="566" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-b-r4c6" x="612" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="grid-b-outline" x="382" y="64" width="276" height="216" rx="0" ry="0" fill="none" stroke="#444444" stroke-width="2" />
+    <rect id="cell-c-r1c1" x="708" y="64" width="46" height="54" rx="0" ry="0" fill="#332288" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r1c2" x="754" y="64" width="46" height="54" rx="0" ry="0" fill="#88CCEE" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r1c3" x="800" y="64" width="46" height="54" rx="0" ry="0" fill="#44AA99" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r1c4" x="846" y="64" width="46" height="54" rx="0" ry="0" fill="#DDCC77" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r1c5" x="892" y="64" width="46" height="54" rx="0" ry="0" fill="#CC6677" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r1c6" x="938" y="64" width="46" height="54" rx="0" ry="0" fill="#AA4499" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r2c1" x="708" y="118" width="46" height="54" rx="0" ry="0" fill="#332288" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r2c2" x="754" y="118" width="46" height="54" rx="0" ry="0" fill="#88CCEE" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r2c3" x="800" y="118" width="46" height="54" rx="0" ry="0" fill="#44AA99" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r2c4" x="846" y="118" width="46" height="54" rx="0" ry="0" fill="#DDCC77" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r2c5" x="892" y="118" width="46" height="54" rx="0" ry="0" fill="#CC6677" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r2c6" x="938" y="118" width="46" height="54" rx="0" ry="0" fill="#AA4499" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r3c1" x="708" y="172" width="46" height="54" rx="0" ry="0" fill="#332288" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r3c2" x="754" y="172" width="46" height="54" rx="0" ry="0" fill="#88CCEE" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r3c3" x="800" y="172" width="46" height="54" rx="0" ry="0" fill="#44AA99" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r3c4" x="846" y="172" width="46" height="54" rx="0" ry="0" fill="#DDCC77" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r3c5" x="892" y="172" width="46" height="54" rx="0" ry="0" fill="#CC6677" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r3c6" x="938" y="172" width="46" height="54" rx="0" ry="0" fill="#AA4499" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r4c1" x="708" y="226" width="46" height="54" rx="0" ry="0" fill="#332288" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r4c2" x="754" y="226" width="46" height="54" rx="0" ry="0" fill="#88CCEE" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r4c3" x="800" y="226" width="46" height="54" rx="0" ry="0" fill="#44AA99" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r4c4" x="846" y="226" width="46" height="54" rx="0" ry="0" fill="#DDCC77" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r4c5" x="892" y="226" width="46" height="54" rx="0" ry="0" fill="#CC6677" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-c-r4c6" x="938" y="226" width="46" height="54" rx="0" ry="0" fill="#AA4499" stroke="#ffffff" stroke-width="2" />
+    <rect id="grid-c-outline" x="708" y="64" width="276" height="216" rx="0" ry="0" fill="none" stroke="#444444" stroke-width="2" />
+    <rect id="cell-d-r1c1" x="1034" y="64" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r1c2" x="1080" y="64" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r1c3" x="1126" y="64" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r1c4" x="1172" y="64" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r1c5" x="1218" y="64" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r1c6" x="1264" y="64" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r2c1" x="1034" y="118" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r2c2" x="1080" y="118" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r2c3" x="1126" y="118" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r2c4" x="1172" y="118" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r2c5" x="1218" y="118" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r2c6" x="1264" y="118" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r3c1" x="1034" y="172" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r3c2" x="1080" y="172" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r3c3" x="1126" y="172" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r3c4" x="1172" y="172" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r3c5" x="1218" y="172" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r3c6" x="1264" y="172" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r4c1" x="1034" y="226" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r4c2" x="1080" y="226" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r4c3" x="1126" y="226" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r4c4" x="1172" y="226" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r4c5" x="1218" y="226" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-d-r4c6" x="1264" y="226" width="46" height="54" rx="0" ry="0" fill="#7a8fa6" stroke="#ffffff" stroke-width="2" />
+    <rect id="grid-d-outline" x="1034" y="64" width="276" height="216" rx="0" ry="0" fill="none" stroke="#444444" stroke-width="2" />
+    <rect id="cell-e-r1c1" x="1392" y="64" width="46" height="54" rx="0" ry="0" fill="#819cb4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r1c2" x="1438" y="64" width="46" height="54" rx="0" ry="0" fill="#29567f" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r1c3" x="1484" y="64" width="46" height="54" rx="0" ry="0" fill="#b2c2d1" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r1c4" x="1530" y="64" width="46" height="54" rx="0" ry="0" fill="#507597" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r1c5" x="1576" y="64" width="46" height="54" rx="0" ry="0" fill="#7491ac" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r1c6" x="1622" y="64" width="46" height="54" rx="0" ry="0" fill="#9fb3c5" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r2c1" x="1392" y="118" width="46" height="54" rx="0" ry="0" fill="#bac9d6" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r2c2" x="1438" y="118" width="46" height="54" rx="0" ry="0" fill="#90a8bd" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r2c3" x="1484" y="118" width="46" height="54" rx="0" ry="0" fill="#d1dbe4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r2c4" x="1530" y="118" width="46" height="54" rx="0" ry="0" fill="#a3b6c8" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r2c5" x="1576" y="118" width="46" height="54" rx="0" ry="0" fill="#b4c3d2" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r2c6" x="1622" y="118" width="46" height="54" rx="0" ry="0" fill="#c8d4de" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r3c1" x="1392" y="172" width="46" height="54" rx="0" ry="0" fill="#9eb2c5" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r3c2" x="1438" y="172" width="46" height="54" rx="0" ry="0" fill="#5d7f9e" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r3c3" x="1484" y="172" width="46" height="54" rx="0" ry="0" fill="#c2cfda" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r3c4" x="1530" y="172" width="46" height="54" rx="0" ry="0" fill="#7a96af" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r3c5" x="1576" y="172" width="46" height="54" rx="0" ry="0" fill="#94aabf" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r3c6" x="1622" y="172" width="46" height="54" rx="0" ry="0" fill="#b3c3d2" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r4c1" x="1392" y="226" width="46" height="54" rx="0" ry="0" fill="#cdd8e1" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r4c2" x="1438" y="226" width="46" height="54" rx="0" ry="0" fill="#b3c3d2" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r4c3" x="1484" y="226" width="46" height="54" rx="0" ry="0" fill="#dce3ea" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r4c4" x="1530" y="226" width="46" height="54" rx="0" ry="0" fill="#bfccd9" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r4c5" x="1576" y="226" width="46" height="54" rx="0" ry="0" fill="#c9d5df" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-e-r4c6" x="1622" y="226" width="46" height="54" rx="0" ry="0" fill="#d6dfe6" stroke="#ffffff" stroke-width="2" />
+    <rect id="grid-e-outline" x="1392" y="64" width="276" height="216" rx="0" ry="0" fill="none" stroke="#444444" stroke-width="2" />
+    <rect id="cell-f-r1c1" x="1718" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r1c2" x="1764" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r1c3" x="1810" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r1c4" x="1856" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r1c5" x="1902" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r1c6" x="1948" y="64" width="46" height="54" rx="0" ry="0" fill="#2687be" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r2c1" x="1718" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r2c2" x="1764" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r2c3" x="1810" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r2c4" x="1856" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r2c5" x="1902" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r2c6" x="1948" y="118" width="46" height="54" rx="0" ry="0" fill="#eaad26" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r3c1" x="1718" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r3c2" x="1764" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r3c3" x="1810" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r3c4" x="1856" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r3c5" x="1902" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r3c6" x="1948" y="172" width="46" height="54" rx="0" ry="0" fill="#26ad88" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r4c1" x="1718" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r4c2" x="1764" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r4c3" x="1810" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r4c4" x="1856" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r4c5" x="1902" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="cell-f-r4c6" x="1948" y="226" width="46" height="54" rx="0" ry="0" fill="#d48db4" stroke="#ffffff" stroke-width="2" />
+    <rect id="grid-f-outline" x="1718" y="64" width="276" height="216" rx="0" ry="0" fill="none" stroke="#444444" stroke-width="2" />
+    <rect id="strip-e-r1" x="1358" y="64" width="24" height="54" rx="0" ry="0" fill="#29567f" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-r2" x="1358" y="118" width="24" height="54" rx="0" ry="0" fill="#90a8bd" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-r3" x="1358" y="172" width="24" height="54" rx="0" ry="0" fill="#5d7f9e" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-r4" x="1358" y="226" width="24" height="54" rx="0" ry="0" fill="#b3c3d2" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-c1" x="1392" y="30" width="46" height="24" rx="0" ry="0" fill="#7c97b0" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-c2" x="1438" y="30" width="46" height="24" rx="0" ry="0" fill="#1f4e79" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-c3" x="1484" y="30" width="46" height="24" rx="0" ry="0" fill="#afc0cf" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-c4" x="1530" y="30" width="46" height="24" rx="0" ry="0" fill="#486f92" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-c5" x="1576" y="30" width="46" height="24" rx="0" ry="0" fill="#6d8ca8" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-c6" x="1622" y="30" width="46" height="24" rx="0" ry="0" fill="#9bb0c3" stroke="#ffffff" stroke-width="2" />
+    <rect id="strip-e-r-outline" x="1358" y="64" width="24" height="216" rx="0" ry="0" fill="none" stroke="#444444" stroke-width="2" />
+    <rect id="strip-e-c-outline" x="1392" y="30" width="276" height="24" rx="0" ry="0" fill="none" stroke="#444444" stroke-width="2" />
+  </g>
+  <g id="texts">
+    <text id="title-a" x="194.0" y="326" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#222222" text-anchor="middle" ><tspan x="194.0" dy="0">(a) Full Adam</tspan></text>
+    <text id="state-a" x="194.0" y="366" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" ><tspan x="194.0" dy="0">state: out × in</tspan></text>
+    <text id="title-b" x="520.0" y="326" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#222222" text-anchor="middle" ><tspan x="520.0" dy="0">(b) Row-level</tspan></text>
+    <text id="state-b" x="520.0" y="366" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" ><tspan x="520.0" dy="0">state: out</tspan></text>
+    <text id="title-c" x="846.0" y="326" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#222222" text-anchor="middle" ><tspan x="846.0" dy="0">(c) Column-level</tspan></text>
+    <text id="state-c" x="846.0" y="366" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" ><tspan x="846.0" dy="0">state: in</tspan></text>
+    <text id="title-d" x="1172.0" y="326" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#222222" text-anchor="middle" ><tspan x="1172.0" dy="0">(d) Matrix-level</tspan></text>
+    <text id="state-d" x="1172.0" y="366" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" ><tspan x="1172.0" dy="0">state: 1</tspan></text>
+    <text id="title-e" x="1530.0" y="326" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#222222" text-anchor="middle" ><tspan x="1530.0" dy="0">(e) Factored</tspan></text>
+    <text id="state-e" x="1530.0" y="366" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" ><tspan x="1530.0" dy="0">state: out + in</tspan></text>
+    <text id="title-f" x="1856.0" y="326" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#222222" text-anchor="middle" ><tspan x="1856.0" dy="0">(f) Row-permuted control</tspan></text>
+    <text id="state-f" x="1856.0" y="366" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" ><tspan x="1856.0" dy="0">state: out</tspan></text>
+    <text id="axis-columns" x="194.0" y="44" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" ><tspan x="194.0" dy="0">input units (fan-in)</tspan></text>
+    <text id="axis-rows" x="38" y="172.0" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" transform="rotate(-90 38 172)"><tspan x="38" dy="0">output units</tspan></text>
+    <text id="strip-e-r-label" x="1370.0" y="310" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" ><tspan x="1370.0" dy="0">r</tspan></text>
+    <text id="strip-e-c-label" x="1684" y="52" font-family="&quot;Liberation Sans&quot;, Arial, Helvetica, sans-serif" font-size="30" font-weight="400" fill="#222222" text-anchor="middle" ><tspan x="1684" dy="0">c</tspan></text>
+  </g>
+</svg>

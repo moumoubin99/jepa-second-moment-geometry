@@ -1,0 +1,6 @@
+# torch 2.8.0+cu128 was recorded by every archived training run.
+# Install its CUDA build with the explicit index documented in README first.
+torch==2.8.0
+-r requirements-analysis.txt
+# Historical version unrecorded: compatible range, not an environment lock.
+scikit-learn>=1.4,<2

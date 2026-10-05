@@ -1,0 +1,40 @@
+{
+  "created_date": "2026-10-05",
+  "archive_sha256": "f0e6d0e342e1c876950acd0435cd486cbe04b922894d63413ed91ca1a41586b3",
+  "archive_bytes": 97800853,
+  "run_count": 398,
+  "batches": {
+    "r3": 150,
+    "r4": 40,
+    "r5": 208
+  },
+  "recorded_environments": [
+    {
+      "environment": {
+        "code": "R3",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+        "torch": "2.8.0+cu128"
+      },
+      "run_count": 251
+    },
+    {
+      "environment": {
+        "code": "R5",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+        "torch": "2.8.0+cu128"
+      },
+      "run_count": 147
+    }
+  ],
+  "preservation": "Original JSON logs and experiment manifest are byte-preserved. Reference paths are resolved externally by reproduce.py.",
+  "source_snapshot": "Code snapshots in the archive were byte-equal to current project files when the release was prepared.",
+  "excluded": [
+    "raw CIFAR-100/STL-10 binaries",
+    "third-party paper PDFs",
+    "unrelated projects",
+    "private configuration, credentials, remote execution wrappers",
+    "legacy backup source files"
+  ],
+  "historical_code_tags": "251 logs tagged R3 and 147 tagged R5; these are experiment labels, not version-control commits.",
+  "license": "No explicit license was present in the source project. No license is assigned by this release builder."
+}

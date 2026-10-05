@@ -1,0 +1,17 @@
+{
+  "pilot-logs/p4_ref_full_c0.03.json": "pilot-logs/refs/p4_ref_full_c0.03.json",
+  "pilot-logs/p4_ref_full_c0.json": "pilot-logs/refs/p4_ref_full_c0.json",
+  "pilot-logs/r3_ref_dimbal.json": "pilot-logs/refs/r3_ref_dimbal.json",
+  "pilot-logs/r3_ref_full.json": "pilot-logs/refs/r3_ref_full.json",
+  "pilot-logs/r3_ref_regfull_c0.01.json": "pilot-logs/refs/r3_ref_regfull_c0.01.json",
+  "pilot-logs/r3_ref_regfull_c0.03.json": "pilot-logs/refs/r3_ref_regfull_c0.03.json",
+  "pilot-logs/r3_ref_regfull_c0.1.json": "pilot-logs/refs/r3_ref_regfull_c0.1.json",
+  "pilot-logs/r3_ref_regfull_c0.3.json": "pilot-logs/refs/r3_ref_regfull_c0.3.json",
+  "pilot-logs/r3_ref_regfull_c0.json": "pilot-logs/refs/r3_ref_regfull_c0.json",
+  "pilot-logs/r3_ref_regfull_c1.json": "pilot-logs/refs/r3_ref_regfull_c1.json",
+  "pilot-logs/r3_tref_fwd600.npz": "pilot-logs/refs/r3_tref_fwd600.npz",
+  "pilot-logs/rv_ref_proj_full.json": "pilot-logs/refs/rv_ref_proj_full.json",
+  "pilot-logs/rv_ref_sigreg_full.json": "pilot-logs/refs/rv_ref_sigreg_full.json",
+  "pilot-logs/stl_ref_full_c0.03.json": "pilot-logs/refs/stl_ref_full_c0.03.json",
+  "pilot-logs/stl_ref_full_c0.json": "pilot-logs/refs/stl_ref_full_c0.json"
+}
