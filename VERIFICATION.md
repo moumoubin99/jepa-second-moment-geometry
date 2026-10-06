@@ -15,3 +15,9 @@ The analysis-only release checks completed using Python 3.12.14, NumPy 2.3.5, Sc
 No new GPU training experiment was run during release preparation. PyTorch is not installed in the analysis verification environment, so `test_r3.py` was preserved but not rerun here. Historical external optimizer/package versions were not recorded; the dependency constraints state this limitation explicitly.
 
 Publication scope excludes source-dataset image binaries, credentials/private configuration, third-party paper PDFs, other projects, legacy backup code, and remote queue wrappers. Generated reproduction outputs and Python caches are ignored and excluded from the release manifest. No project-wide reuse license was present or assigned.
+
+## v1.0.1 correction verification — 2026-10-06
+
+Only the Figure 4 raw-pixel reference line and its label were removed from the plotting script. The original source hash and corrected hash are recorded in `manifest/corrections_v1.0.1.json`; imported-source hash checks now validate the corrected release bytes while retaining the archived source hash.
+
+All 398 experiment logs, the experiment manifest, four canonical table files, and six tensor-reference/source NPZ files and their arrays are byte-preserved against v1.0.0. Four tables were independently regenerated in scratch and matched the canonical LF content. The five dense source arrays rebuilt the supplied tensor reference exactly. Figure 4 regenerated in scratch, and PDF text inspection confirmed the removed raw-pixel label is absent. Figures 1, 2, 3, and 5 remain unchanged. No fresh GPU training was performed.

@@ -2443,9 +2443,12 @@
   },
   {
     "path": "paper/figures/gen_figures.py",
-    "sha256": "0c320cbd7537decaea881394853a85d8be34db8b6e0b1ab58d9ad49aac1f4aa8",
-    "bytes": 6901,
-    "source": "supplementary_code_and_logs.zip:paper/figures/gen_figures.py"
+    "sha256": "585716591e331cbdac08408d71acd4b5dd10e6763c7b6b7837eecbb46a68630a",
+    "bytes": 6764,
+    "source": "supplementary_code_and_logs.zip:paper/figures/gen_figures.py",
+    "original_source_sha256": "0c320cbd7537decaea881394853a85d8be34db8b6e0b1ab58d9ad49aac1f4aa8",
+    "original_source_bytes": 6901,
+    "release_correction": "manifest/corrections_v1.0.1.json"
   },
   {
     "path": "pilot-logs/refs/n2r3_refdimbal_s0.json",
@@ -2725,8 +2728,11 @@
   },
   {
     "path": "manifest/release_provenance.json",
-    "sha256": "66568b6a8448009f62b183e289c21b3dc3283d40e6839d4851daf7710107feff",
-    "bytes": 1363,
-    "source": "derived: release inventory"
+    "sha256": "6e9e8a872d41eaffc3bb1f96e8c753213f7f2f77367f959ab8c6cd7802704e0d",
+    "bytes": 1772,
+    "source": "derived: release inventory",
+    "original_source_sha256": "66568b6a8448009f62b183e289c21b3dc3283d40e6839d4851daf7710107feff",
+    "original_source_bytes": 1363,
+    "release_correction": "manifest/corrections_v1.0.1.json"
   }
 ]

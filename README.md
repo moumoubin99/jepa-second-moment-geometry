@@ -54,7 +54,7 @@ Create `results/` before the last direct command. The table script uses LF-norma
 
 ## Recorded environment and full training
 
-All 398 logs record **PyTorch `2.8.0+cu128`** and an **NVIDIA RTX PRO 6000 Blackwell Server Edition** GPU. Logs carry experiment labels `R3` (251 runs) or `R5` (147 runs); these labels do not identify version-control commits. The released source was byte-equal to the training/source scripts in the original supplementary archive when this package was prepared. Exact historical Python, NumPy, scikit-learn, and external optimizer versions were not recorded.
+All 398 logs record **PyTorch `2.8.0+cu128`** and an **NVIDIA RTX PRO 6000 Blackwell Server Edition** GPU. Logs carry experiment labels `R3` (251 runs) or `R5` (147 runs); these labels do not identify version-control commits. Training and optimizer source files retain the archived bytes. The plotting script includes the documented v1.0.1 Figure 4 correction below; its original source hash and corrected hash are both retained. Exact historical Python, NumPy, scikit-learn, and external optimizer versions were not recorded.
 
 Training uses CUDA and bfloat16 autocast. It stores dataset arrays in GPU memory, so a suitable GPU and its memory capacity are required. Analysis reproduction was tested locally; a fresh training campaign was not run during preparation of this release. Different hardware or package versions may change training outcomes.
 
@@ -126,3 +126,7 @@ Paired differences use seed intersections and two-sided Student-t 95% confidence
 `manifest/source_files.json` gives the exact import source and SHA-256 of each original artifact. `manifest/release_provenance.json` identifies the original archive by hash and records package scope. Additional generated/documentation files are recorded in the release file manifest. Raw datasets, private configuration, credentials, unrelated work, third-party paper PDFs, and obsolete remote execution wrappers are excluded.
 
 No explicit source-project license was found. This release does not assign a code or data license. Dataset use follows the source providers' terms; author confirmation is needed before declaring a repository-wide reuse license.
+
+## Release v1.0.1 correction — 2026-10-06
+
+Figure 4 no longer displays the hard-coded raw-pixel reference line and label because an independent source run for that value was not archived. The plotted experimental means and sample standard deviations are unchanged. This correction changes only that line in `paper/figures/gen_figures.py` and the regenerated Figure 4, with corresponding documentation and provenance/hash updates. All 398 experiment logs, four canonical tables, and tensor-reference/source arrays retain their original bytes and values. Original source hashes are preserved in `manifest/source_files.json` and `manifest/corrections_v1.0.1.json`.

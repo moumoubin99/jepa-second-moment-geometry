@@ -27,7 +27,7 @@
     }
   ],
   "preservation": "Original JSON logs and experiment manifest are byte-preserved. Reference paths are resolved externally by reproduce.py.",
-  "source_snapshot": "Code snapshots in the archive were byte-equal to current project files when the release was prepared.",
+  "source_snapshot": "At initial v1.0.0 preparation, imported code snapshots were byte-equal to the supplementary archive and current project files. Training/optimizer source bytes remain preserved. In v1.0.1, paper/figures/gen_figures.py was corrected only by removing a hard-coded raw-pixel reference line and its label; the original and corrected hashes are retained in manifest/corrections_v1.0.1.json.",
   "excluded": [
     "raw CIFAR-100/STL-10 binaries",
     "third-party paper PDFs",
@@ -36,5 +36,10 @@
     "legacy backup source files"
   ],
   "historical_code_tags": "251 logs tagged R3 and 147 tagged R5; these are experiment labels, not version-control commits.",
-  "license": "No explicit license was present in the source project. No license is assigned by this release builder."
+  "license": "No explicit license was present in the source project. No license is assigned by this release builder.",
+  "release_version": "v1.0.1",
+  "amended_date": "2026-10-06",
+  "corrections": [
+    "manifest/corrections_v1.0.1.json"
+  ]
 }

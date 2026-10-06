@@ -97,7 +97,6 @@ def fig_surface():
             ax[j].errorbar(range(len(CS)), m, yerr=sd, color=COL[o], marker=MK[o], ms=3, capsize=1.5, lw=1.1, label=LAB[o])
         ax[j].set_xticks(range(len(CS))); ax[j].set_xticklabels(CS)
         ax[j].set_xlabel("pooled VICReg coefficient"); ax[j].set_ylabel(kn)
-    ax[1].axhline(12.56, color="#888888", lw=0.6, ls=":"); ax[1].text(5.1, 12.75, "raw pixels", fontsize=6, ha="right", color="#666666")
     ax[0].legend(frameon=False, loc="lower right")
     fig.tight_layout(pad=0.4); fig.savefig(f"{OUT}/fig4_response_surface.pdf"); plt.close(fig)
 

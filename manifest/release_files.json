@@ -1,8 +1,10 @@
 {
   "scope": "All publication files except this manifest itself; ignored local results, caches, datasets, and Git metadata are excluded.",
   "created_date": "2026-10-05",
-  "file_count": 468,
-  "total_bytes": 266196746,
+  "amended_date": "2026-10-06",
+  "release_version": "v1.0.1",
+  "file_count": 469,
+  "total_bytes": 266200071,
   "largest_file": {
     "path": "pilot-logs/r5/r5_rowperm_mat_c0_s10.json",
     "bytes": 1338463,
@@ -55,6 +57,11 @@
       "sha256": "402013efab336aeecdb5d3f9324955119b26323feaf56de02eade5563c8176ad"
     },
     {
+      "path": "manifest/corrections_v1.0.1.json",
+      "bytes": 1466,
+      "sha256": "5c3b2e10b91dd22359450bec3d34127c50afcd2d2f7a6116fe3019de83852f31"
+    },
+    {
       "path": "manifest/experiments.jsonl",
       "bytes": 257249,
       "sha256": "bbc09f78fde33793e1d3ab9f412f14c9747bb06e403e9707c3ba4016e13da28b"
@@ -66,13 +73,13 @@
     },
     {
       "path": "manifest/release_provenance.json",
-      "bytes": 1363,
-      "sha256": "66568b6a8448009f62b183e289c21b3dc3283d40e6839d4851daf7710107feff"
+      "bytes": 1772,
+      "sha256": "6e9e8a872d41eaffc3bb1f96e8c753213f7f2f77367f959ab8c6cd7802704e0d"
     },
     {
       "path": "manifest/source_files.json",
-      "bytes": 112098,
-      "sha256": "9b9c589416a3d2f9bf5a391aa3b92cbd549fd9bbac3a4208566883cd19ebe145"
+      "bytes": 112488,
+      "sha256": "ea07761877b7d101bf68a3d894264a774072155c5444d42804a0e7fcd9aec547"
     },
     {
       "path": "paper/figures/fig1_geometries.svg",
@@ -91,8 +98,8 @@
     },
     {
       "path": "paper/figures/fig4_response_surface.pdf",
-      "bytes": 25766,
-      "sha256": "e7e1b5eee5ad8b403761850773276d68e0a43bd438ced28768bce60f66235ec2"
+      "bytes": 25351,
+      "sha256": "6d1758ebd951b9bf4a69810389972c29550c174c539aa8250c4e1da60677c9f7"
     },
     {
       "path": "paper/figures/fig5_surgery.pdf",
@@ -101,8 +108,8 @@
     },
     {
       "path": "paper/figures/gen_figures.py",
-      "bytes": 6901,
-      "sha256": "0c320cbd7537decaea881394853a85d8be34db8b6e0b1ab58d9ad49aac1f4aa8"
+      "bytes": 6764,
+      "sha256": "585716591e331cbdac08408d71acd4b5dd10e6763c7b6b7837eecbb46a68630a"
     },
     {
       "path": "paper/figures/gen_tables.py",
@@ -2321,8 +2328,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9891,
-      "sha256": "a914211690071059996e5153b62ba647dd7b2bfee253f1c36bfbe75a635df864"
+      "bytes": 10624,
+      "sha256": "5c5b615dc8e36aaa147a276cc12fc3f9b5d9528bc9efaca252a1716483fe58a4"
     },
     {
       "path": "reproduce.py",
@@ -2346,8 +2353,8 @@
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 2840,
-      "sha256": "be704231234868ea871687e9aea240b98c7447361f89b80517030b6202dec843"
+      "bytes": 3719,
+      "sha256": "e798370e1461787ec155da21699ad1413de66b61ee37db658dcc588f5fc1684c"
     }
   ]
 }

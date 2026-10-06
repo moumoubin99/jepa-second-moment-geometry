@@ -1,0 +1,30 @@
+{
+  "correction_id": "v1.0.1-figure4-baseline-removal",
+  "release_version": "v1.0.1",
+  "date": "2026-10-06",
+  "parent_release_commit": "1ebd2cf9784fa75796fc91cce1567aaaf73b82f0",
+  "reason": "The plotted raw-pixel baseline was hard-coded without an independently archived source run. Remove that reference line and its label; the measured experimental series are unchanged.",
+  "plotting_script": {
+    "path": "paper/figures/gen_figures.py",
+    "original_source_sha256": "0c320cbd7537decaea881394853a85d8be34db8b6e0b1ab58d9ad49aac1f4aa8",
+    "original_source_bytes": 6901,
+    "corrected_sha256": "585716591e331cbdac08408d71acd4b5dd10e6763c7b6b7837eecbb46a68630a",
+    "corrected_bytes": 6764,
+    "removed_line": "    ax[1].axhline(12.56, color=\"#888888\", lw=0.6, ls=\":\"); ax[1].text(5.1, 12.75, \"raw pixels\", fontsize=6, ha=\"right\", color=\"#666666\")"
+  },
+  "figure4": {
+    "path": "paper/figures/fig4_response_surface.pdf",
+    "v1_0_0_sha256": "e7e1b5eee5ad8b403761850773276d68e0a43bd438ced28768bce60f66235ec2",
+    "corrected_sha256": "6d1758ebd951b9bf4a69810389972c29550c174c539aa8250c4e1da60677c9f7",
+    "corrected_bytes": 25351
+  },
+  "preserved": [
+    "398 experiment-log bytes",
+    "experiment-manifest bytes",
+    "four canonical LaTeX table bytes",
+    "all six tensor-reference/source NPZ bytes and arrays",
+    "training and optimizer source bytes",
+    "Figures 1, 2, 3, and 5"
+  ],
+  "training": "No new training was launched."
+}
